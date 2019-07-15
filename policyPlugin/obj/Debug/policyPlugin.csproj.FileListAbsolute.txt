@@ -1,0 +1,8 @@
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\bin\Debug\policyPlugin.dll
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\bin\Debug\policyPlugin.pdb
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\obj\Debug\policyPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\obj\Debug\policyPlugin.csproj.CopyComplete
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\obj\Debug\policyPlugin.dll
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\obj\Debug\policyPlugin.pdb
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\policyPlugin\obj\Debug\policyPlugin.csprojAssemblyReference.cache

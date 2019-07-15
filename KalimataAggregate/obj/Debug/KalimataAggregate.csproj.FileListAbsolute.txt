@@ -1,0 +1,5 @@
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\KalimataAggregate\bin\Debug\KalimataAggregate.dll
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\KalimataAggregate\bin\Debug\KalimataAggregate.pdb
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\KalimataAggregate\obj\Debug\KalimataAggregate.csproj.CoreCompileInputs.cache
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\KalimataAggregate\obj\Debug\KalimataAggregate.dll
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\KalimataAggregate\obj\Debug\KalimataAggregate.pdb
