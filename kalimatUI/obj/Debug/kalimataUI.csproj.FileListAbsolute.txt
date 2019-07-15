@@ -61,3 +61,4 @@ C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\kalimatU
 C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\kalimatUI\obj\Debug\kalimataUI.csproj.CopyComplete
 C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\kalimatUI\obj\Debug\kalimatUI.dll
 C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\kalimatUI\obj\Debug\kalimatUI.pdb
+C:\Users\Oracle\Documents\Visual Studio 2019\Projects\KalimataAggregate\kalimatUI\obj\Debug\kalimataUI.csprojAssemblyReference.cache

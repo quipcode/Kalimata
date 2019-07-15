@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KalimataAggregate", "KalimataAggregate\KalimataAggregate.csproj", "{0E578309-497B-471B-B7BC-F7448BF334B7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "policyPlugin", "policyPlugin\policyPlugin.csproj", "{2D92447A-6DD9-4CF8-9920-69D28E322FE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kalimataUI", "kalimatUI\kalimataUI.csproj", "{2FBFE240-7DE4-4FD4-98B1-63A0409FB117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "claimPlugin", "claimPlugin\claimPlugin.csproj", "{1E3D743C-4294-4ED0-BB4F-238BED79872E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "currencyRateUpdate", "currencyRateUpdate\currencyRateUpdate.csproj", "{594B8E7E-3512-4464-9056-2770B1AA17FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0E578309-497B-471B-B7BC-F7448BF334B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E578309-497B-471B-B7BC-F7448BF334B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E578309-497B-471B-B7BC-F7448BF334B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E578309-497B-471B-B7BC-F7448BF334B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D92447A-6DD9-4CF8-9920-69D28E322FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D92447A-6DD9-4CF8-9920-69D28E322FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D92447A-6DD9-4CF8-9920-69D28E322FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,14 @@ Global
 		{2FBFE240-7DE4-4FD4-98B1-63A0409FB117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FBFE240-7DE4-4FD4-98B1-63A0409FB117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FBFE240-7DE4-4FD4-98B1-63A0409FB117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3D743C-4294-4ED0-BB4F-238BED79872E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3D743C-4294-4ED0-BB4F-238BED79872E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3D743C-4294-4ED0-BB4F-238BED79872E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3D743C-4294-4ED0-BB4F-238BED79872E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594B8E7E-3512-4464-9056-2770B1AA17FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594B8E7E-3512-4464-9056-2770B1AA17FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594B8E7E-3512-4464-9056-2770B1AA17FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594B8E7E-3512-4464-9056-2770B1AA17FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

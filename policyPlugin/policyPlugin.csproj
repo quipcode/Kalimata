@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PolicyPostCreate.cs" />
+    <Compile Include="PolicyPostUpdatePremium.cs" />
+    <Compile Include="PolicyPostUpdateTaxCalculate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

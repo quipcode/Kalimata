@@ -120,6 +120,7 @@ namespace policy
 
 
                     tracingService.Trace("Updating Attribute");
+
                     if (policy.Attributes.Contains("kp_collisionpricecad"))
                     {
                         policy.Attributes["kp_collisionpricecad"] = collisionCA;
@@ -239,68 +240,6 @@ namespace policy
                     service.Update(policy);
                     tracingService.Trace("finished server update");
                     tracingService.Trace(((Money)policy.Attributes["kp_premium"]).Value.ToString());
-
-
-                    //string policyFetchXml = @"<fetch mapping='logical' version='1.0' distinct='false' output-format='xml-platform'>
-                    //  <entity name='kp_policy'>
-                    //    <attribute name='kp_policy' />
-                    //    <attribute name='createdon' />
-                    //    <attribute name='kp_premium' />
-                    //    <attribute name='transactioncurrencyid' />
-                    //    <attribute name='kp_policynumber' />
-                    //    <attribute name='kp_policyholder' />
-                    //    <attribute name='kp_ncpremiumposttax' />
-                    //    <attribute name='kp_policyid' />
-                    //    <attribute name='kp_uninsured' />
-                    //    <attribute name='kp_protected' />
-                    //    <attribute name='kp_liability' />
-                    //    <attribute name='kp_comprehensive' />
-                    //    <attribute name='kp_collision' />
-                    //    <order descending='false' attribute='kp_policy' />
-                    //    <filter type='and'>
-                    //      <condition value='0' attribute='statecode' operator='eq' />
-                    //    </filter>
-                    //  </entity>
-                    //</fetch>";
-                    //tracingService.Trace("Policy Guid is: {0}, the liability is{0}, the comprehensive {1}, contact guid {2}", policy.Id.ToString(), policy.Attributes["kp_liability"].ToString(), policy.Attributes["kp_comprehensive"].ToString(), ((EntityReference)policy.Attributes["kp_policyholder"]).ToString());
-                    //EntityCollection collection = service.RetrieveMultiple(new FetchExpression(policyFetchXml));
-
-                    ////EntityCollection collection = service.RetrieveMultiple(query);
-                    //foreach (Entity item in collection.Entities)
-                    //{
-                    //    tracingService.Trace(item.Attributes["kp_policyid"].ToString());
-                    //    tracingService.Trace(item.Attributes["kp_policy"].ToString());
-                    //    tracingService.Trace(item.Attributes["kp_policynumber"].ToString());
-                    //    tracingService.Trace(item.Attributes["kp_policyholder"].ToString());
-                    //    tracingService.Trace(item.Attributes["kp_premium"].ToString());
-                    //    tracingService.Trace(item.Attributes["kp_premiumposttax"].ToString());
-
-                    //    //service.Update(item);
-                    //}
-
-                    //string fetchAllPoliciyPriceList= @"<fetch mapping='logical' output-format='xml-platform' version='1.0' distinct='false'>
-                    //  <entity name='productpricelevel'>
-                    //    <attribute name='productid' />
-                    //    <attribute name='uomid' />
-                    //    <attribute name='productpricelevelid' />
-                    //    <attribute name='transactioncurrencyid' />
-                    //    <attribute name='amount' />
-                    //    <order descending='false' attribute='productid' />
-                    //    <filter type='and'>
-                    //      <condition value='%InsurancePolicy' attribute='pricelevelidname' operator='like' />
-                    //    </filter>
-                    //    <link-entity name='product' to='productid' from='productid' alias='a_04a3781107a2e911a9b6000d3a402766' link-type='outer' visible='false'>
-                    //      <attribute name='name' />
-                    //    </link-entity>
-                    //  </entity>
-                    //</fetch>";
-
-                    //EntityCollection allPolicies = service.RetrieveMultiple(new FetchExpression(fetchAllPolicies));                     
-                    //query3.Attributes
-
-                    //query.ColumnSet.AddColumn("description");
-                    //query.Criteria.AddCondition("parentcustomerid", ConditionOperator.Equal, account.Id);
-                    //service.Update(account.Attributes["description"] = "The city of the account has been updated to " + city);
 
 
                 }//try block end
